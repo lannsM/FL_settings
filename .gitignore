@@ -1,4 +1,18 @@
+
+
 *.*
 !.gitignore
 !README.md
 !my*.*
+
+FL Studio/Projects/Backup/*
+FL Studio/Projects/Project bones/*
+FL Studio/Audio/*
+
+# Add plugins from custom Synth folder (FL has classic and special for synths)
+!FL Studio/Presets/Plugin database/Generators/Synth/*.*
+
+# Add plugins from custom Fx folders
+!FL Studio/Presets/Plugin database/Effects/Fx-Mix/*.*
+!FL Studio/Presets/Plugin database/Effects/Fx-Vocals/*.*
+!FL Studio/Presets/Plugin database/Effects/Fx-Instruments/*.*
