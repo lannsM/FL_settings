@@ -3,7 +3,7 @@
 *.*
 !.gitignore
 !README.md
-!my*.*
+!myown*.*
 
 FL Studio/Projects/Backup/*
 FL Studio/Projects/Project bones/*
@@ -13,6 +13,12 @@ FL Studio/Audio/*
 !FL Studio/Presets/Plugin database/Generators/Synth/*.*
 
 # Add plugins from custom Fx folders
+# Ignore the fst files, they are added with the plugins automatically
+
 !FL Studio/Presets/Plugin database/Effects/Fx-Mix/*.*
 !FL Studio/Presets/Plugin database/Effects/Fx-Vocals/*.*
 !FL Studio/Presets/Plugin database/Effects/Fx-Instruments/*.*
+
+!FL Studio/Presets/Plugin database/Generators/Instru-Sampler/*.*
+!FL Studio/Presets/Plugin database/Generators/Instru-Synth/*.*
+*.fst
